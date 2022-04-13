@@ -1,13 +1,14 @@
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <>
-          <h1>Hello World!</h1>
-        </>
-      </header>
-    </div>
+    <>
+      <Header />
+      <main className="main-content"></main>
+      <Footer />
+    </>
   );
-}
+};
 
 export default App;
